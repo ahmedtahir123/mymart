@@ -13,12 +13,18 @@
     /* background-color: white; */
     background-color: #7bae23;
     }
+
 .mylist li{
     
     list-style: none;
     display: inline-block;
     color: white;
     margin: 10px;
+
     /* text-align: center; */
     /* float: right; */
+}
+.mylist {
+display:flex;
+justify-content: flex-start;
 }

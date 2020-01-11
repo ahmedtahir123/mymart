@@ -18,9 +18,6 @@ function Category() {
                     <li>Laptop</li>
                     <li>Laptop</li>
                     <li>Laptop</li>
-                    <li>Laptop</li>
-                    <li>Laptop</li>
-                    <li>Laptop</li>
                 </span>
 
             </div>

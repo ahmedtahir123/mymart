@@ -5,7 +5,11 @@
     background-color: white;
 
 }
-
+#mylabel{
+    font-weight: bold;
+    font-size: 35px;
+    color:black
+}
 .mycart{
     font-size: 40px;
     color: green;

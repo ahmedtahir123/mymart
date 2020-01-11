@@ -20,13 +20,16 @@ function Logodiv() {
                     </div>
                     <div>
                         <span>
+
                     <Input id="abc"  placeholder="Basic usage" />
-                    <Button id="bcd" type="primary">Primary</Button>
+                    <Button id="bcd" type="danger">Search</Button>
                     </span>
                     </div>
-                    <div>
-                        <h1>Infinity</h1>
-                    </div>
+                    <div> 
+                    {/* <h1>Infinity</h1>  */}
+                    <label id="mylabel">Infinity</label>
+                     </div> 
+                    
                     <div className="cartdiv">
                     <Badge count={0} showZero="true">
                     <Icon className="mycart" type="shopping-cart" />
