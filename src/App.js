@@ -7,6 +7,7 @@ import Category from './Category'
 import Maindiv from './Maindiv'
 import Footer from './Footer'
 import Mobilediv from './Mobilediv'
+import Product from './Product'
 
 
 
@@ -16,13 +17,14 @@ class App extends React.Component{
   render(){
     return(
       <div>
-      <Header/>
+      {/* <Header/>
       <LoginHeader/>
       <Logodiv/>
       <Category/>
       <Maindiv/>
       <Mobilediv/>
-      <Footer/>
+      <Footer/> */}
+      <Product/>
       </div>
     )
       

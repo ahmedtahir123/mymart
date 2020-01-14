@@ -43,9 +43,16 @@
 
     
 }
+#Mybtn{
+    display:flex;
+    justify-content: flex-end;
+
+/* background-color: black; */
+}
 .one{
     width:30%;
     height: 70%;
     background-color: black;
+
     margin:40px;
 }
