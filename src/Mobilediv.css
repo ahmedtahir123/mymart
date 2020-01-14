@@ -7,6 +7,10 @@
     /* background-color: pink; */
     height: 1100px;
 }
+#mylabel{
+    font-size: 20px;
+    font-weight: bold;
+}
 #nd{
     bottom: 40px;
     margin-left: 12%;
@@ -43,16 +47,9 @@
 
     
 }
-#Mybtn{
-    display:flex;
-    justify-content: flex-end;
-
-/* background-color: black; */
-}
 .one{
     width:30%;
     height: 70%;
     background-color: black;
-
     margin:40px;
 }

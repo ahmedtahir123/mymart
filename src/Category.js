@@ -10,14 +10,14 @@ function Category() {
         <div className="Cat">
             <div className="Category">
                 <span  className="mylist">
-                    <li>Cloths</li>
-                    <li>Laptop</li>
-                    <li>Home</li>
-                    <li>Car</li>
-                    <li>Home</li>
-                    <li>Laptop</li>
-                    <li>Laptop</li>
-                    <li>Laptop</li>
+                    <a href="#"><li>Cloths</li></a>
+                    <a href="#"><li>Laptop</li></a>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Car</li></a>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Laptop</li></a>
+                    <a href="#"><li>Laptop</li></a>
+                    <a href="#"><li>Laptop</li></a>
                 </span>
 
             </div>

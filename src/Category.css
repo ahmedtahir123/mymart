@@ -1,4 +1,7 @@
 .Cat{
+    position: sticky !important;
+    top:1px;
+    z-index: 1;
     height: 80px ;
     width: 100%;
     background-color:white;
@@ -7,6 +10,7 @@
     margin-bottom: -12px;
 }
 .Category{
+   
     margin: 14px auto;
     height: 40px;
     width:85%;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Logodiv.css'
 import 'antd/dist/antd.css';
-import { Input,Button, Icon, Badge } from 'antd';
+import { Drawer,Input,Button, Icon, Badge } from 'antd';
 import myimg from '../src/Mylogo.png'
 
 
@@ -10,7 +10,8 @@ import myimg from '../src/Mylogo.png'
 
 
 
-function Logodiv() {
+
+function Logodiv(props) {
     return (
         <div className="Logodiv">
             <div>
@@ -32,7 +33,7 @@ function Logodiv() {
                     
                     <div className="cartdiv">
                     <Badge count={0} showZero="true">
-                    <Icon className="mycart" type="shopping-cart" />
+                    <Icon  className="mycart" type="shopping-cart" />
                     </Badge>
                     </div>
                 </span>
