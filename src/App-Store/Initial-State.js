@@ -5,10 +5,19 @@ import m1 from "../images/m1.jpg";
 import m2 from "../images/m2.jpg";
 import m3 from "../images/m3.jpg";
 import m4 from "../images/m4.jpg";
+import s2 from "../images/s2.jpg";
+import s3 from "../images/s3.jpg";
+import s4 from "../images/s4.jpg";
+import s10 from "../images/c10.jpg";
+import s11 from "../images/c11.jpg";
+import s12 from "../images/c12.jpg";
+import s13 from "../images/c13.jpg";
+import s14 from "../images/c14.jpg";
 
 const appInitialState = {
   SliderImages: [imgdiv3, imgdiv3, imgdiv3, imgdiv3],
   leftImages: [imgdiv1, imgdiv2],
+  finalList:[],
   bodyObject: {
     myCartList: [],
     visible: false,
@@ -19,7 +28,7 @@ const appInitialState = {
         key: 1,
         img: m1,
         price: 10,
-        text: "Samsung A7 (2018) | Blue | With Official Warranty",
+        text: "Samsung A1 (2018) | Blue | With Official Warranty",
         counter: 0
       },
       {
@@ -27,7 +36,7 @@ const appInitialState = {
 
         img: m2,
         price: 20,
-        text: "Samsung A7 (2018) | Blue | With Official Warranty",
+        text: "Samsung A2 (2018) | Blue | With Official Warranty",
         counter: 0
       },
       {
@@ -35,7 +44,7 @@ const appInitialState = {
 
         img: m3,
         price: 30,
-        text: "Samsung A7 (2018) | Blue | With Official Warranty",
+        text: "Samsung A3 (2018) | Blue | With Official Warranty",
         counter: 0
       },
       {
@@ -43,25 +52,41 @@ const appInitialState = {
 
         img: m4,
         price: 40,
-        text: "Samsung A7 (2018) | Blue | With Official Warranty",
+        text: "Samsung A4 (2018) | Blue | With Official Warranty",
         counter: 0
       }
     ],
     categoriesdiv: [
       {
-        img: imgdiv3,
+        img: m2,
+        text: "Samsung A7 (2018) | Blue | With Official Warranty"
+      },
+      {
+        img: s2,
+        text: "Cookware,Kitchen Tools Accessories,Dining,Servings"
+      },
+      // {
+      //   img: s3,
+      //   text: "something"
+      // },
+      {
+        img: s4,
         text: "something"
       },
       {
-        img: imgdiv3,
+        img: s11,
         text: "something"
       },
       {
-        img: imgdiv3,
+        img: s12,
         text: "something"
       },
       {
-        img: imgdiv3,
+        img: s13,
+        text: "something"
+      },
+      {
+        img: s14,
         text: "something"
       }
     ]
@@ -79,8 +104,8 @@ const appInitialState = {
   CardImages: [
     {
       key: 1,
-      img: m2,
-      price: 10,
+      img: m1,
+      price: 100,
       text: "Samsung A7 (2018) | Blue | With Official Warranty",
       counter: 0
     },
@@ -102,37 +127,6 @@ const appInitialState = {
       key: 4,
       img: m4,
       price: 40,
-      text: "Samsung A7 (2018) | Blue | With Official Warranty",
-      counter: 0
-    },
-    {
-      key: 5,
-      img: m3,
-      price: 50,
-      text: "Samsung A7 (2018) | Blue | With Official Warranty",
-      counter: 0
-    },
-    {
-      key: 6,
-
-      img: m1,
-      price: 60,
-      text: "Samsung A7 (2018) | Blue | With Official Warranty",
-      counter: 0
-    },
-    {
-      key: 7,
-
-      img: m2,
-      price: 70,
-      text: "Samsung A7 (2018) | Blue | With Official Warranty",
-      counter: 0
-    },
-    {
-      key: 8,
-
-      img: m4,
-      price: 80,
       text: "Samsung A7 (2018) | Blue | With Official Warranty",
       counter: 0
     }

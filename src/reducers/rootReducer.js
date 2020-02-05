@@ -1,24 +1,31 @@
 import { produce } from "immer";
+import { MYACTION } from "../utils/constants";
 
-const audioList = produce((draft, action) => {
+const ReducerList = produce((draft, action) => {
   switch (action.type) {
-    case "changeCount":
-        
+    case MYACTION.CHANGECOUNT:
       draft.count = action.payload.count;
-      draft.Total=action.payload.Total;
+      draft.Total = action.payload.Total;
       return;
-      case "changeStateOfDrawer":
-          debugger;
-        draft.visible = action.payload;
+    case MYACTION.DrawerState:
+      debugger;
+      draft.visible = action.payload;
+      return;
+    case MYACTION.updateCartList:
+      debugger;
+      draft.myCartList=action.payload;
+      return;
+      case MYACTION.GetSortedList:
+        debugger
+        // draft.CardImages=action.payload.List
+        action.payload.myList=action.payload.List
+        
         return;
-        case "updateCartList":
-          debugger;
-        draft.myList = action.payload;
-        return;
+
 
     default:
       return draft;
   }
 });
 
-export default audioList;
+export default ReducerList;

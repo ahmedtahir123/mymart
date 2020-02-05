@@ -17,11 +17,28 @@
     /* background-color: green; */
 }
 #abc{
-    width: 400px;
-    height: 45px;
+    width: 500px;
+    height: 35px;
+    border-top-right-radius:0px; 
+    border-bottom-right-radius:0px; 
+
+
 }
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+input::-webkit-calendar-picker-indicator {
+    display: none;
+  }
 #bcd{
-    height: 45px;
+    height: 35px;
+    border-radius:0px; 
+    border-radius:0px; 
+    background-color: #e96125;
 }
 
 .items {
